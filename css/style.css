@@ -1,3 +1,13 @@
+/* Custom Propertys */
+:root {
+    --site-bg-color: #effafa;
+    --global-color: #5ca5a5;
+    --title-color: #2b3939;
+    --text-color: #7c8f8f;
+    --white-text-color: #fff;
+}
+
+
 /* GLOBAL STYLES */
 html {
     height: 100%;
@@ -20,7 +30,7 @@ body {
     font-family: "Arial", sans-serif;
     font-style: 16px;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: var(--site-bg-color);
     color: #222;
 }
 
